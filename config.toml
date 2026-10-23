@@ -296,5 +296,6 @@ check-if-email-exists = { skip-tests = true } # flaky: test fails when ran witho
 "ydarma/fluent_data" = { skip-tests = true } # flaky: race condition when setting up test
 "zthompson47/pseudotty" = { skip-tests = true } # flaky: expects subprocess to respond within 10ms
 "chen-siyuan/ray-tracing" = { skip-tests = true } # flaky: tests a random process
+"kinnison/aoc" = { skip = true } # depends on a Git repo with a dead URL
 
 [local-crates]
